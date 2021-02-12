@@ -9,23 +9,15 @@
 /* Begin PBXBuildFile section */
 		0988252425D6DA6A006B85ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0988252325D6DA6A006B85ED /* AppDelegate.swift */; };
 		0988252625D6DA6A006B85ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0988252525D6DA6A006B85ED /* SceneDelegate.swift */; };
-		0988252825D6DA6A006B85ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0988252725D6DA6A006B85ED /* ViewController.swift */; };
-		0988252B25D6DA6A006B85ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0988252925D6DA6A006B85ED /* Main.storyboard */; };
 		0988252D25D6DA6C006B85ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0988252C25D6DA6C006B85ED /* Assets.xcassets */; };
 		0988253025D6DA6C006B85ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0988252E25D6DA6C006B85ED /* LaunchScreen.storyboard */; };
 		0988253B25D6DA6C006B85ED /* TwAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0988253A25D6DA6C006B85ED /* TwAuthTests.swift */; };
-		0988254625D6DA6C006B85ED /* TwAuthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0988254525D6DA6C006B85ED /* TwAuthUITests.swift */; };
+		0988256825D6DD93006B85ED /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0988256725D6DD93006B85ED /* Authentication.storyboard */; };
+		0988256C25D6DDD2006B85ED /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0988256B25D6DDD2006B85ED /* AuthenticationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		0988253725D6DA6C006B85ED /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0988251825D6DA6A006B85ED /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0988251F25D6DA6A006B85ED;
-			remoteInfo = TwAuth;
-		};
-		0988254225D6DA6C006B85ED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0988251825D6DA6A006B85ED /* Project object */;
 			proxyType = 1;
@@ -38,17 +30,14 @@
 		0988252025D6DA6A006B85ED /* TwAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0988252325D6DA6A006B85ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0988252525D6DA6A006B85ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0988252725D6DA6A006B85ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0988252A25D6DA6A006B85ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0988252C25D6DA6C006B85ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0988252F25D6DA6C006B85ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0988253125D6DA6C006B85ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0988253625D6DA6C006B85ED /* TwAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0988253A25D6DA6C006B85ED /* TwAuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwAuthTests.swift; sourceTree = "<group>"; };
 		0988253C25D6DA6C006B85ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0988254125D6DA6C006B85ED /* TwAuthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwAuthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0988254525D6DA6C006B85ED /* TwAuthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwAuthUITests.swift; sourceTree = "<group>"; };
-		0988254725D6DA6C006B85ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0988256725D6DD93006B85ED /* Authentication.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
+		0988256B25D6DDD2006B85ED /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +55,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0988253E25D6DA6C006B85ED /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +63,6 @@
 			children = (
 				0988252225D6DA6A006B85ED /* TwAuth */,
 				0988253925D6DA6C006B85ED /* TwAuthTests */,
-				0988254425D6DA6C006B85ED /* TwAuthUITests */,
 				0988252125D6DA6A006B85ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +72,6 @@
 			children = (
 				0988252025D6DA6A006B85ED /* TwAuth.app */,
 				0988253625D6DA6C006B85ED /* TwAuthTests.xctest */,
-				0988254125D6DA6C006B85ED /* TwAuthUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,10 +79,7 @@
 		0988252225D6DA6A006B85ED /* TwAuth */ = {
 			isa = PBXGroup;
 			children = (
-				0988252325D6DA6A006B85ED /* AppDelegate.swift */,
-				0988252525D6DA6A006B85ED /* SceneDelegate.swift */,
-				0988252725D6DA6A006B85ED /* ViewController.swift */,
-				0988252925D6DA6A006B85ED /* Main.storyboard */,
+				0988255625D6DBA9006B85ED /* Application */,
 				0988252C25D6DA6C006B85ED /* Assets.xcassets */,
 				0988252E25D6DA6C006B85ED /* LaunchScreen.storyboard */,
 				0988253125D6DA6C006B85ED /* Info.plist */,
@@ -119,13 +96,71 @@
 			path = TwAuthTests;
 			sourceTree = "<group>";
 		};
-		0988254425D6DA6C006B85ED /* TwAuthUITests */ = {
+		0988255625D6DBA9006B85ED /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				0988254525D6DA6C006B85ED /* TwAuthUITests.swift */,
-				0988254725D6DA6C006B85ED /* Info.plist */,
+				0988255E25D6DC21006B85ED /* Authentication */,
+				0988255D25D6DBFB006B85ED /* Networking */,
+				0988255C25D6DBF2006B85ED /* Common */,
 			);
-			path = TwAuthUITests;
+			path = Application;
+			sourceTree = "<group>";
+		};
+		0988255C25D6DBF2006B85ED /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0988252525D6DA6A006B85ED /* SceneDelegate.swift */,
+				0988252325D6DA6A006B85ED /* AppDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0988255D25D6DBFB006B85ED /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0988255E25D6DC21006B85ED /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				0988256125D6DC9C006B85ED /* ViewModel */,
+				0988256025D6DC90006B85ED /* View */,
+				0988255F25D6DC7D006B85ED /* Model */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		0988255F25D6DC7D006B85ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0988256025D6DC90006B85ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0988256725D6DD93006B85ED /* Authentication.storyboard */,
+				0988256225D6DCBD006B85ED /* ViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0988256125D6DC9C006B85ED /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0988256225D6DCBD006B85ED /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0988256B25D6DDD2006B85ED /* AuthenticationViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,24 +201,6 @@
 			productReference = 0988253625D6DA6C006B85ED /* TwAuthTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0988254025D6DA6C006B85ED /* TwAuthUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0988255025D6DA6C006B85ED /* Build configuration list for PBXNativeTarget "TwAuthUITests" */;
-			buildPhases = (
-				0988253D25D6DA6C006B85ED /* Sources */,
-				0988253E25D6DA6C006B85ED /* Frameworks */,
-				0988253F25D6DA6C006B85ED /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0988254325D6DA6C006B85ED /* PBXTargetDependency */,
-			);
-			name = TwAuthUITests;
-			productName = TwAuthUITests;
-			productReference = 0988254125D6DA6C006B85ED /* TwAuthUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +214,6 @@
 						CreatedOnToolsVersion = 12.0;
 					};
 					0988253525D6DA6C006B85ED = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 0988251F25D6DA6A006B85ED;
-					};
-					0988254025D6DA6C006B85ED = {
 						CreatedOnToolsVersion = 12.0;
 						TestTargetID = 0988251F25D6DA6A006B85ED;
 					};
@@ -221,7 +234,6 @@
 			targets = (
 				0988251F25D6DA6A006B85ED /* TwAuth */,
 				0988253525D6DA6C006B85ED /* TwAuthTests */,
-				0988254025D6DA6C006B85ED /* TwAuthUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,20 +243,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0988256825D6DD93006B85ED /* Authentication.storyboard in Resources */,
 				0988253025D6DA6C006B85ED /* LaunchScreen.storyboard in Resources */,
 				0988252D25D6DA6C006B85ED /* Assets.xcassets in Resources */,
-				0988252B25D6DA6A006B85ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0988253425D6DA6C006B85ED /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0988253F25D6DA6C006B85ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0988252825D6DA6A006B85ED /* ViewController.swift in Sources */,
+				0988256C25D6DDD2006B85ED /* AuthenticationViewController.swift in Sources */,
 				0988252425D6DA6A006B85ED /* AppDelegate.swift in Sources */,
 				0988252625D6DA6A006B85ED /* SceneDelegate.swift in Sources */,
 			);
@@ -272,14 +277,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0988253D25D6DA6C006B85ED /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0988254625D6DA6C006B85ED /* TwAuthUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -288,22 +285,9 @@
 			target = 0988251F25D6DA6A006B85ED /* TwAuth */;
 			targetProxy = 0988253725D6DA6C006B85ED /* PBXContainerItemProxy */;
 		};
-		0988254325D6DA6C006B85ED /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0988251F25D6DA6A006B85ED /* TwAuth */;
-			targetProxy = 0988254225D6DA6C006B85ED /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0988252925D6DA6A006B85ED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0988252A25D6DA6A006B85ED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0988252E25D6DA6C006B85ED /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -509,44 +493,6 @@
 			};
 			name = Release;
 		};
-		0988255125D6DA6C006B85ED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TwAuthUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mruiz723.TwAuthUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TwAuth;
-			};
-			name = Debug;
-		};
-		0988255225D6DA6C006B85ED /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TwAuthUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mruiz723.TwAuthUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TwAuth;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -573,15 +519,6 @@
 			buildConfigurations = (
 				0988254E25D6DA6C006B85ED /* Debug */,
 				0988254F25D6DA6C006B85ED /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0988255025D6DA6C006B85ED /* Build configuration list for PBXNativeTarget "TwAuthUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0988255125D6DA6C006B85ED /* Debug */,
-				0988255225D6DA6C006B85ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
