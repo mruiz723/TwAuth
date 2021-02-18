@@ -7,16 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09063E9425DB0A4C00B7C6F0 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09063E9325DB0A4C00B7C6F0 /* Account.swift */; };
+		09063EA225DB63E700B7C6F0 /* AccountDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09063EA125DB63E700B7C6F0 /* AccountDataProvider.swift */; };
+		09063EA925DB75AF00B7C6F0 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 09063EA825DB75AF00B7C6F0 /* KeychainAccess */; };
+		09063EB225DC177F00B7C6F0 /* ChallengeDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09063EB125DC177F00B7C6F0 /* ChallengeDetail.storyboard */; };
+		09063EB625DC17CB00B7C6F0 /* ChallengeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09063EB525DC17CB00B7C6F0 /* ChallengeDetailViewController.swift */; };
+		09063EBA25DC189B00B7C6F0 /* ChallengeDetailViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09063EB925DC189B00B7C6F0 /* ChallengeDetailViewModelProtocol.swift */; };
+		09063EBE25DC19E100B7C6F0 /* ChallengeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09063EBD25DC19E100B7C6F0 /* ChallengeAPI.swift */; };
+		09063EC225DC1A1200B7C6F0 /* ChallengeAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09063EC125DC1A1200B7C6F0 /* ChallengeAPIClient.swift */; };
+		09063EC625DC1B9400B7C6F0 /* ChallengeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09063EC525DC1B9400B7C6F0 /* ChallengeDetailViewModel.swift */; };
+		09063EE025DC377800B7C6F0 /* ChallengeDetailFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09063EDF25DC377700B7C6F0 /* ChallengeDetailFactory.swift */; };
+		09063EE425DC381800B7C6F0 /* ChallengeDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09063EE325DC381800B7C6F0 /* ChallengeDetailCoordinator.swift */; };
+		09063EE825DC384C00B7C6F0 /* ChallengeDetailCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09063EE725DC384C00B7C6F0 /* ChallengeDetailCoordinatorProtocol.swift */; };
+		09063EFA25DCBABF00B7C6F0 /* SVProgressHUD.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09063EEC25DCBA7A00B7C6F0 /* SVProgressHUD.xcframework */; };
+		09063EFB25DCBABF00B7C6F0 /* SVProgressHUD.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09063EEC25DCBA7A00B7C6F0 /* SVProgressHUD.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		09063F1C25DD7BA600B7C6F0 /* AlertProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09063F1B25DD7BA600B7C6F0 /* AlertProtocol.swift */; };
+		09063F1F25DD865400B7C6F0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09063F1E25DD865400B7C6F0 /* BaseViewController.swift */; };
+		09063F3725DDB26900B7C6F0 /* BaseViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09063F3625DDB26900B7C6F0 /* BaseViewModelProtocol.swift */; };
+		09063F3F25DDBC0C00B7C6F0 /* AuthenticationViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09063F3E25DDBC0C00B7C6F0 /* AuthenticationViewModelTests.swift */; };
+		09063F4225DDBD3A00B7C6F0 /* AuthenticationManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09063F4125DDBD3A00B7C6F0 /* AuthenticationManagerMock.swift */; };
+		09063F5025DDE97100B7C6F0 /* ChallengesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09063F4F25DDE97100B7C6F0 /* ChallengesViewModelTests.swift */; };
+		09063F5325DDE98500B7C6F0 /* ChallengeDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09063F5225DDE98500B7C6F0 /* ChallengeDetailViewModelTests.swift */; };
+		09063F5625DDEB0900B7C6F0 /* ChallengesAPIClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09063F5525DDEB0900B7C6F0 /* ChallengesAPIClientMock.swift */; };
+		0970530825DED46F0035399F /* TwAuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0970530725DED46F0035399F /* TwAuthError.swift */; };
 		0988252425D6DA6A006B85ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0988252325D6DA6A006B85ED /* AppDelegate.swift */; };
 		0988252625D6DA6A006B85ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0988252525D6DA6A006B85ED /* SceneDelegate.swift */; };
 		0988252D25D6DA6C006B85ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0988252C25D6DA6C006B85ED /* Assets.xcassets */; };
 		0988253025D6DA6C006B85ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0988252E25D6DA6C006B85ED /* LaunchScreen.storyboard */; };
-		0988253B25D6DA6C006B85ED /* TwAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0988253A25D6DA6C006B85ED /* TwAuthTests.swift */; };
 		0988256825D6DD93006B85ED /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0988256725D6DD93006B85ED /* Authentication.storyboard */; };
 		0988256C25D6DDD2006B85ED /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0988256B25D6DDD2006B85ED /* AuthenticationViewController.swift */; };
+		09D03FEB25DE0DFF005B3872 /* ChallengeAPIClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D03FEA25DE0DFF005B3872 /* ChallengeAPIClientMock.swift */; };
 		09EEAA7225D75F92001F7FD9 /* MRCommons in Frameworks */ = {isa = PBXBuildFile; productRef = 09EEAA7125D75F92001F7FD9 /* MRCommons */; };
 		09EEAA7725D761CA001F7FD9 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 09EEAA7625D761CA001F7FD9 /* IQKeyboardManagerSwift */; };
 		09EEAA7C25D761EA001F7FD9 /* TwilioVerify in Frameworks */ = {isa = PBXBuildFile; productRef = 09EEAA7B25D761EA001F7FD9 /* TwilioVerify */; };
+		09EEAA8025D8948A001F7FD9 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAA7F25D8948A001F7FD9 /* AppCoordinator.swift */; };
+		09EEAA8525D89A14001F7FD9 /*  AuthenticationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAA8325D89A14001F7FD9 /*  AuthenticationCoordinator.swift */; };
+		09EEAA8625D89A14001F7FD9 /* AuthenticationCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAA8425D89A14001F7FD9 /* AuthenticationCoordinatorProtocol.swift */; };
+		09EEAA8A25D89B3B001F7FD9 /* AuthenticationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAA8925D89B3B001F7FD9 /* AuthenticationFactory.swift */; };
+		09EEAA8F25D8A1ED001F7FD9 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAA8D25D8A1ED001F7FD9 /* AuthenticationViewModel.swift */; };
+		09EEAA9025D8A1ED001F7FD9 /* AuthenticationViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAA8E25D8A1ED001F7FD9 /* AuthenticationViewModelProtocol.swift */; };
+		09EEAA9425D8A40F001F7FD9 /* AuthenticationManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAA9325D8A40F001F7FD9 /* AuthenticationManagerProtocol.swift */; };
+		09EEAAA325D8A49A001F7FD9 /* RegisterDeviceAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAA9825D8A499001F7FD9 /* RegisterDeviceAPIClient.swift */; };
+		09EEAAA425D8A49A001F7FD9 /* LoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAA9925D8A499001F7FD9 /* LoginAPI.swift */; };
+		09EEAAA625D8A49A001F7FD9 /* LoginAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAA9B25D8A499001F7FD9 /* LoginAPIClient.swift */; };
+		09EEAAA725D8A49A001F7FD9 /* RegisterDeviceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAA9C25D8A499001F7FD9 /* RegisterDeviceAPI.swift */; };
+		09EEAAA825D8A49A001F7FD9 /* AccessTokenAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAA9D25D8A499001F7FD9 /* AccessTokenAPI.swift */; };
+		09EEAAA925D8A49A001F7FD9 /* CreateFactorAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAA9E25D8A499001F7FD9 /* CreateFactorAPIClient.swift */; };
+		09EEAAAA25D8A49A001F7FD9 /* AccessTokenAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAA9F25D8A499001F7FD9 /* AccessTokenAPIClient.swift */; };
+		09EEAAAD25D8A49A001F7FD9 /* CreateFactorAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAAA225D8A49A001F7FD9 /* CreateFactorAPI.swift */; };
+		09EEAAB125D8A4BB001F7FD9 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAAB025D8A4BB001F7FD9 /* AuthenticationManager.swift */; };
+		09EEAABF25D8A54D001F7FD9 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAAB425D8A54C001F7FD9 /* Endpoint.swift */; };
+		09EEAAC125D8A54D001F7FD9 /* AccessTokenOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAAB725D8A54C001F7FD9 /* AccessTokenOperation.swift */; };
+		09EEAAC225D8A54D001F7FD9 /* LoginOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAAB825D8A54C001F7FD9 /* LoginOperation.swift */; };
+		09EEAAC325D8A54D001F7FD9 /* RegisterDeviceOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAAB925D8A54C001F7FD9 /* RegisterDeviceOperation.swift */; };
+		09EEAAC425D8A54D001F7FD9 /* CreateFactorOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAABA25D8A54C001F7FD9 /* CreateFactorOperation.swift */; };
+		09EEAACD25D8BA4A001F7FD9 /* AccessTokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAACA25D8BA4A001F7FD9 /* AccessTokenResponse.swift */; };
+		09EEAACE25D8BA4A001F7FD9 /* RegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAACB25D8BA4A001F7FD9 /* RegisterResponse.swift */; };
+		09EEAAD325D8BA9D001F7FD9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAAD225D8BA9D001F7FD9 /* Constants.swift */; };
+		09EEAAF025D9A142001F7FD9 /* ServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAAEF25D9A142001F7FD9 /* ServiceLocator.swift */; };
+		09EEAAF625D9A371001F7FD9 /* Injected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAAF525D9A371001F7FD9 /* Injected.swift */; };
+		09EEAAFA25D9AFD9001F7FD9 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAAF925D9AFD9001F7FD9 /* LoginResponse.swift */; };
+		09EEAB0D25D9DD95001F7FD9 /* Challenges.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09EEAB0C25D9DD95001F7FD9 /* Challenges.storyboard */; };
+		09EEAB1125D9E14D001F7FD9 /* ChallengeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09EEAB1025D9E14D001F7FD9 /* ChallengeTableViewCell.xib */; };
+		09EEAB1525D9E15E001F7FD9 /* ChallengeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAB1425D9E15E001F7FD9 /* ChallengeTableViewCell.swift */; };
+		09EEAB1925D9E19F001F7FD9 /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAB1825D9E19F001F7FD9 /* DateFormatter+Extensions.swift */; };
+		09EEAB1D25D9E3F8001F7FD9 /* ChallengesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAB1C25D9E3F8001F7FD9 /* ChallengesViewController.swift */; };
+		09EEAB2125D9E654001F7FD9 /* ChallengesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAB2025D9E654001F7FD9 /* ChallengesViewModel.swift */; };
+		09EEAB2525D9E6BB001F7FD9 /* ChallengeTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAB2425D9E6BB001F7FD9 /* ChallengeTableViewCellViewModel.swift */; };
+		09EEAB2925D9E6D2001F7FD9 /* ChallengeTableViewCellViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAB2825D9E6D2001F7FD9 /* ChallengeTableViewCellViewModelProtocol.swift */; };
+		09EEAB2D25D9E712001F7FD9 /* ChallengesViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAB2C25D9E712001F7FD9 /* ChallengesViewModelProtocol.swift */; };
+		09EEAB3125D9F2D3001F7FD9 /* ChallengesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAB3025D9F2D3001F7FD9 /* ChallengesAPI.swift */; };
+		09EEAB3525DA0C70001F7FD9 /* ChallengesAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAB3425DA0C70001F7FD9 /* ChallengesAPIClient.swift */; };
+		09EEAB3B25DA186D001F7FD9 /* ChallengesCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAB3A25DA186D001F7FD9 /* ChallengesCoordinatorProtocol.swift */; };
+		09EEAB3F25DA18B4001F7FD9 /* ChallengesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAB3E25DA18B4001F7FD9 /* ChallengesCoordinator.swift */; };
+		09EEAB4325DA196D001F7FD9 /* ChallengesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEAB4225DA196D001F7FD9 /* ChallengesFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +93,42 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		09063EFC25DCBAC000B7C6F0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				09063EFB25DCBABF00B7C6F0 /* SVProgressHUD.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		09063E9325DB0A4C00B7C6F0 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		09063EA125DB63E700B7C6F0 /* AccountDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountDataProvider.swift; sourceTree = "<group>"; };
+		09063EB125DC177F00B7C6F0 /* ChallengeDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChallengeDetail.storyboard; sourceTree = "<group>"; };
+		09063EB525DC17CB00B7C6F0 /* ChallengeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeDetailViewController.swift; sourceTree = "<group>"; };
+		09063EB925DC189B00B7C6F0 /* ChallengeDetailViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeDetailViewModelProtocol.swift; sourceTree = "<group>"; };
+		09063EBD25DC19E100B7C6F0 /* ChallengeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeAPI.swift; sourceTree = "<group>"; };
+		09063EC125DC1A1200B7C6F0 /* ChallengeAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeAPIClient.swift; sourceTree = "<group>"; };
+		09063EC525DC1B9400B7C6F0 /* ChallengeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeDetailViewModel.swift; sourceTree = "<group>"; };
+		09063EDF25DC377700B7C6F0 /* ChallengeDetailFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeDetailFactory.swift; sourceTree = "<group>"; };
+		09063EE325DC381800B7C6F0 /* ChallengeDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeDetailCoordinator.swift; sourceTree = "<group>"; };
+		09063EE725DC384C00B7C6F0 /* ChallengeDetailCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeDetailCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		09063EEC25DCBA7A00B7C6F0 /* SVProgressHUD.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SVProgressHUD.xcframework; path = ../Carthage/Build/SVProgressHUD.xcframework; sourceTree = "<group>"; };
+		09063F1B25DD7BA600B7C6F0 /* AlertProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertProtocol.swift; sourceTree = "<group>"; };
+		09063F1E25DD865400B7C6F0 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		09063F3625DDB26900B7C6F0 /* BaseViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModelProtocol.swift; sourceTree = "<group>"; };
+		09063F3E25DDBC0C00B7C6F0 /* AuthenticationViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModelTests.swift; sourceTree = "<group>"; };
+		09063F4125DDBD3A00B7C6F0 /* AuthenticationManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManagerMock.swift; sourceTree = "<group>"; };
+		09063F4F25DDE97100B7C6F0 /* ChallengesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesViewModelTests.swift; sourceTree = "<group>"; };
+		09063F5225DDE98500B7C6F0 /* ChallengeDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeDetailViewModelTests.swift; sourceTree = "<group>"; };
+		09063F5525DDEB0900B7C6F0 /* ChallengesAPIClientMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesAPIClientMock.swift; sourceTree = "<group>"; };
+		0970530725DED46F0035399F /* TwAuthError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwAuthError.swift; sourceTree = "<group>"; };
 		0988252025D6DA6A006B85ED /* TwAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0988252325D6DA6A006B85ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0988252525D6DA6A006B85ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,10 +136,51 @@
 		0988252F25D6DA6C006B85ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0988253125D6DA6C006B85ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0988253625D6DA6C006B85ED /* TwAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0988253A25D6DA6C006B85ED /* TwAuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwAuthTests.swift; sourceTree = "<group>"; };
 		0988253C25D6DA6C006B85ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0988256725D6DD93006B85ED /* Authentication.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
 		0988256B25D6DDD2006B85ED /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		09D03FEA25DE0DFF005B3872 /* ChallengeAPIClientMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeAPIClientMock.swift; sourceTree = "<group>"; };
+		09EEAA7F25D8948A001F7FD9 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		09EEAA8325D89A14001F7FD9 /*  AuthenticationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = " AuthenticationCoordinator.swift"; sourceTree = "<group>"; };
+		09EEAA8425D89A14001F7FD9 /* AuthenticationCoordinatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		09EEAA8925D89B3B001F7FD9 /* AuthenticationFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationFactory.swift; sourceTree = "<group>"; };
+		09EEAA8D25D8A1ED001F7FD9 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		09EEAA8E25D8A1ED001F7FD9 /* AuthenticationViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModelProtocol.swift; sourceTree = "<group>"; };
+		09EEAA9325D8A40F001F7FD9 /* AuthenticationManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManagerProtocol.swift; sourceTree = "<group>"; };
+		09EEAA9825D8A499001F7FD9 /* RegisterDeviceAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterDeviceAPIClient.swift; sourceTree = "<group>"; };
+		09EEAA9925D8A499001F7FD9 /* LoginAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginAPI.swift; sourceTree = "<group>"; };
+		09EEAA9B25D8A499001F7FD9 /* LoginAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginAPIClient.swift; sourceTree = "<group>"; };
+		09EEAA9C25D8A499001F7FD9 /* RegisterDeviceAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterDeviceAPI.swift; sourceTree = "<group>"; };
+		09EEAA9D25D8A499001F7FD9 /* AccessTokenAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessTokenAPI.swift; sourceTree = "<group>"; };
+		09EEAA9E25D8A499001F7FD9 /* CreateFactorAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateFactorAPIClient.swift; sourceTree = "<group>"; };
+		09EEAA9F25D8A499001F7FD9 /* AccessTokenAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessTokenAPIClient.swift; sourceTree = "<group>"; };
+		09EEAAA225D8A49A001F7FD9 /* CreateFactorAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateFactorAPI.swift; sourceTree = "<group>"; };
+		09EEAAB025D8A4BB001F7FD9 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		09EEAAB425D8A54C001F7FD9 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		09EEAAB725D8A54C001F7FD9 /* AccessTokenOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessTokenOperation.swift; sourceTree = "<group>"; };
+		09EEAAB825D8A54C001F7FD9 /* LoginOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginOperation.swift; sourceTree = "<group>"; };
+		09EEAAB925D8A54C001F7FD9 /* RegisterDeviceOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterDeviceOperation.swift; sourceTree = "<group>"; };
+		09EEAABA25D8A54C001F7FD9 /* CreateFactorOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateFactorOperation.swift; sourceTree = "<group>"; };
+		09EEAACA25D8BA4A001F7FD9 /* AccessTokenResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessTokenResponse.swift; sourceTree = "<group>"; };
+		09EEAACB25D8BA4A001F7FD9 /* RegisterResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterResponse.swift; sourceTree = "<group>"; };
+		09EEAAD225D8BA9D001F7FD9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		09EEAAEF25D9A142001F7FD9 /* ServiceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLocator.swift; sourceTree = "<group>"; };
+		09EEAAF525D9A371001F7FD9 /* Injected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injected.swift; sourceTree = "<group>"; };
+		09EEAAF925D9AFD9001F7FD9 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		09EEAB0C25D9DD95001F7FD9 /* Challenges.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Challenges.storyboard; sourceTree = "<group>"; };
+		09EEAB1025D9E14D001F7FD9 /* ChallengeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChallengeTableViewCell.xib; sourceTree = "<group>"; };
+		09EEAB1425D9E15E001F7FD9 /* ChallengeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeTableViewCell.swift; sourceTree = "<group>"; };
+		09EEAB1825D9E19F001F7FD9 /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
+		09EEAB1C25D9E3F8001F7FD9 /* ChallengesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesViewController.swift; sourceTree = "<group>"; };
+		09EEAB2025D9E654001F7FD9 /* ChallengesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesViewModel.swift; sourceTree = "<group>"; };
+		09EEAB2425D9E6BB001F7FD9 /* ChallengeTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTableViewCellViewModel.swift; sourceTree = "<group>"; };
+		09EEAB2825D9E6D2001F7FD9 /* ChallengeTableViewCellViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTableViewCellViewModelProtocol.swift; sourceTree = "<group>"; };
+		09EEAB2C25D9E712001F7FD9 /* ChallengesViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesViewModelProtocol.swift; sourceTree = "<group>"; };
+		09EEAB3025D9F2D3001F7FD9 /* ChallengesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesAPI.swift; sourceTree = "<group>"; };
+		09EEAB3425DA0C70001F7FD9 /* ChallengesAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesAPIClient.swift; sourceTree = "<group>"; };
+		09EEAB3A25DA186D001F7FD9 /* ChallengesCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		09EEAB3E25DA18B4001F7FD9 /* ChallengesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesCoordinator.swift; sourceTree = "<group>"; };
+		09EEAB4225DA196D001F7FD9 /* ChallengesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +188,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09063EA925DB75AF00B7C6F0 /* KeychainAccess in Frameworks */,
+				09063EFA25DCBABF00B7C6F0 /* SVProgressHUD.xcframework in Frameworks */,
 				09EEAA7225D75F92001F7FD9 /* MRCommons in Frameworks */,
 				09EEAA7C25D761EA001F7FD9 /* TwilioVerify in Frameworks */,
 				09EEAA7725D761CA001F7FD9 /* IQKeyboardManagerSwift in Frameworks */,
@@ -64,12 +206,104 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09063EAC25DC14AB00B7C6F0 /* ChallengeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				09063EB025DC14F100B7C6F0 /* Model */,
+				09063EAF25DC14E800B7C6F0 /* ViewModel */,
+				09063EAD25DC14D700B7C6F0 /* View */,
+				09063EDF25DC377700B7C6F0 /* ChallengeDetailFactory.swift */,
+				09063EE325DC381800B7C6F0 /* ChallengeDetailCoordinator.swift */,
+				09063EE725DC384C00B7C6F0 /* ChallengeDetailCoordinatorProtocol.swift */,
+			);
+			path = ChallengeDetail;
+			sourceTree = "<group>";
+		};
+		09063EAD25DC14D700B7C6F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				09063EAE25DC14E000B7C6F0 /* ViewController */,
+				09063EB125DC177F00B7C6F0 /* ChallengeDetail.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		09063EAE25DC14E000B7C6F0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				09063EB525DC17CB00B7C6F0 /* ChallengeDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		09063EAF25DC14E800B7C6F0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				09063EB925DC189B00B7C6F0 /* ChallengeDetailViewModelProtocol.swift */,
+				09063EC525DC1B9400B7C6F0 /* ChallengeDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		09063EB025DC14F100B7C6F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		09063EEB25DCBA7A00B7C6F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09063EEC25DCBA7A00B7C6F0 /* SVProgressHUD.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09063F3925DDBA4A00B7C6F0 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				09063F3C25DDBA7600B7C6F0 /* ChallengeDetail */,
+				09063F3B25DDBA6900B7C6F0 /* Challenges */,
+				09063F3A25DDBA5500B7C6F0 /* Authentication */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		09063F3A25DDBA5500B7C6F0 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				09063F3E25DDBC0C00B7C6F0 /* AuthenticationViewModelTests.swift */,
+				09063F4125DDBD3A00B7C6F0 /* AuthenticationManagerMock.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		09063F3B25DDBA6900B7C6F0 /* Challenges */ = {
+			isa = PBXGroup;
+			children = (
+				09063F4F25DDE97100B7C6F0 /* ChallengesViewModelTests.swift */,
+				09063F5525DDEB0900B7C6F0 /* ChallengesAPIClientMock.swift */,
+			);
+			path = Challenges;
+			sourceTree = "<group>";
+		};
+		09063F3C25DDBA7600B7C6F0 /* ChallengeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				09063F5225DDE98500B7C6F0 /* ChallengeDetailViewModelTests.swift */,
+				09D03FEA25DE0DFF005B3872 /* ChallengeAPIClientMock.swift */,
+			);
+			path = ChallengeDetail;
+			sourceTree = "<group>";
+		};
 		0988251725D6DA6A006B85ED = {
 			isa = PBXGroup;
 			children = (
 				0988252225D6DA6A006B85ED /* TwAuth */,
 				0988253925D6DA6C006B85ED /* TwAuthTests */,
 				0988252125D6DA6A006B85ED /* Products */,
+				09063EEB25DCBA7A00B7C6F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,7 +330,7 @@
 		0988253925D6DA6C006B85ED /* TwAuthTests */ = {
 			isa = PBXGroup;
 			children = (
-				0988253A25D6DA6C006B85ED /* TwAuthTests.swift */,
+				09063F3925DDBA4A00B7C6F0 /* Application */,
 				0988253C25D6DA6C006B85ED /* Info.plist */,
 			);
 			path = TwAuthTests;
@@ -105,6 +339,8 @@
 		0988255625D6DBA9006B85ED /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				09063EAC25DC14AB00B7C6F0 /* ChallengeDetail */,
+				09EEAB0825D9DCBE001F7FD9 /* Challenges */,
 				0988255E25D6DC21006B85ED /* Authentication */,
 				0988255D25D6DBFB006B85ED /* Networking */,
 				0988255C25D6DBF2006B85ED /* Common */,
@@ -115,8 +351,15 @@
 		0988255C25D6DBF2006B85ED /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				09EEAB1825D9E19F001F7FD9 /* DateFormatter+Extensions.swift */,
+				09EEAAEE25D9A0C7001F7FD9 /* ServiceLocator */,
+				09EEAAD225D8BA9D001F7FD9 /* Constants.swift */,
 				0988252525D6DA6A006B85ED /* SceneDelegate.swift */,
 				0988252325D6DA6A006B85ED /* AppDelegate.swift */,
+				09EEAA7F25D8948A001F7FD9 /* AppCoordinator.swift */,
+				09063F1B25DD7BA600B7C6F0 /* AlertProtocol.swift */,
+				09063F1E25DD865400B7C6F0 /* BaseViewController.swift */,
+				09063F3625DDB26900B7C6F0 /* BaseViewModelProtocol.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -124,6 +367,11 @@
 		0988255D25D6DBFB006B85ED /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				0970530725DED46F0035399F /* TwAuthError.swift */,
+				09EEAABB25D8A54C001F7FD9 /* DataProvider */,
+				09EEAAB425D8A54C001F7FD9 /* Endpoint.swift */,
+				09EEAAB525D8A54C001F7FD9 /* Operation */,
+				09EEAA9725D8A499001F7FD9 /* API */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -131,9 +379,14 @@
 		0988255E25D6DC21006B85ED /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				09EEAA8325D89A14001F7FD9 /*  AuthenticationCoordinator.swift */,
+				09EEAA8425D89A14001F7FD9 /* AuthenticationCoordinatorProtocol.swift */,
+				09EEAA8925D89B3B001F7FD9 /* AuthenticationFactory.swift */,
 				0988256125D6DC9C006B85ED /* ViewModel */,
 				0988256025D6DC90006B85ED /* View */,
 				0988255F25D6DC7D006B85ED /* Model */,
+				09EEAA9325D8A40F001F7FD9 /* AuthenticationManagerProtocol.swift */,
+				09EEAAB025D8A4BB001F7FD9 /* AuthenticationManager.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -141,6 +394,10 @@
 		0988255F25D6DC7D006B85ED /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				09EEAACA25D8BA4A001F7FD9 /* AccessTokenResponse.swift */,
+				09EEAACB25D8BA4A001F7FD9 /* RegisterResponse.swift */,
+				09EEAAF925D9AFD9001F7FD9 /* LoginResponse.swift */,
+				09063E9325DB0A4C00B7C6F0 /* Account.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -157,6 +414,8 @@
 		0988256125D6DC9C006B85ED /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				09EEAA8D25D8A1ED001F7FD9 /* AuthenticationViewModel.swift */,
+				09EEAA8E25D8A1ED001F7FD9 /* AuthenticationViewModelProtocol.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -165,6 +424,95 @@
 			isa = PBXGroup;
 			children = (
 				0988256B25D6DDD2006B85ED /* AuthenticationViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		09EEAA9725D8A499001F7FD9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				09EEAA9825D8A499001F7FD9 /* RegisterDeviceAPIClient.swift */,
+				09EEAA9925D8A499001F7FD9 /* LoginAPI.swift */,
+				09EEAA9B25D8A499001F7FD9 /* LoginAPIClient.swift */,
+				09EEAA9C25D8A499001F7FD9 /* RegisterDeviceAPI.swift */,
+				09EEAA9D25D8A499001F7FD9 /* AccessTokenAPI.swift */,
+				09EEAA9F25D8A499001F7FD9 /* AccessTokenAPIClient.swift */,
+				09EEAA9E25D8A499001F7FD9 /* CreateFactorAPIClient.swift */,
+				09EEAAA225D8A49A001F7FD9 /* CreateFactorAPI.swift */,
+				09EEAB3025D9F2D3001F7FD9 /* ChallengesAPI.swift */,
+				09EEAB3425DA0C70001F7FD9 /* ChallengesAPIClient.swift */,
+				09063EBD25DC19E100B7C6F0 /* ChallengeAPI.swift */,
+				09063EC125DC1A1200B7C6F0 /* ChallengeAPIClient.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		09EEAAB525D8A54C001F7FD9 /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				09EEAAB725D8A54C001F7FD9 /* AccessTokenOperation.swift */,
+				09EEAAB825D8A54C001F7FD9 /* LoginOperation.swift */,
+				09EEAAB925D8A54C001F7FD9 /* RegisterDeviceOperation.swift */,
+				09EEAABA25D8A54C001F7FD9 /* CreateFactorOperation.swift */,
+			);
+			path = Operation;
+			sourceTree = "<group>";
+		};
+		09EEAABB25D8A54C001F7FD9 /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				09063EA125DB63E700B7C6F0 /* AccountDataProvider.swift */,
+			);
+			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		09EEAAEE25D9A0C7001F7FD9 /* ServiceLocator */ = {
+			isa = PBXGroup;
+			children = (
+				09EEAAEF25D9A142001F7FD9 /* ServiceLocator.swift */,
+				09EEAAF525D9A371001F7FD9 /* Injected.swift */,
+			);
+			path = ServiceLocator;
+			sourceTree = "<group>";
+		};
+		09EEAB0825D9DCBE001F7FD9 /* Challenges */ = {
+			isa = PBXGroup;
+			children = (
+				09EEAB0A25D9DCFE001F7FD9 /* View */,
+				09EEAB0925D9DCF3001F7FD9 /* ViewModel */,
+				09EEAB3A25DA186D001F7FD9 /* ChallengesCoordinatorProtocol.swift */,
+				09EEAB3E25DA18B4001F7FD9 /* ChallengesCoordinator.swift */,
+				09EEAB4225DA196D001F7FD9 /* ChallengesFactory.swift */,
+			);
+			path = Challenges;
+			sourceTree = "<group>";
+		};
+		09EEAB0925D9DCF3001F7FD9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				09EEAB2025D9E654001F7FD9 /* ChallengesViewModel.swift */,
+				09EEAB2425D9E6BB001F7FD9 /* ChallengeTableViewCellViewModel.swift */,
+				09EEAB2825D9E6D2001F7FD9 /* ChallengeTableViewCellViewModelProtocol.swift */,
+				09EEAB2C25D9E712001F7FD9 /* ChallengesViewModelProtocol.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		09EEAB0A25D9DCFE001F7FD9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				09EEAB1425D9E15E001F7FD9 /* ChallengeTableViewCell.swift */,
+				09EEAB1025D9E14D001F7FD9 /* ChallengeTableViewCell.xib */,
+				09EEAB0B25D9DD16001F7FD9 /* ViewController */,
+				09EEAB0C25D9DD95001F7FD9 /* Challenges.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		09EEAB0B25D9DD16001F7FD9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				09EEAB1C25D9E3F8001F7FD9 /* ChallengesViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -179,6 +527,8 @@
 				0988251C25D6DA6A006B85ED /* Sources */,
 				0988251D25D6DA6A006B85ED /* Frameworks */,
 				0988251E25D6DA6A006B85ED /* Resources */,
+				09EEAAFF25D9BA40001F7FD9 /* ShellScript */,
+				09063EFC25DCBAC000B7C6F0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -189,6 +539,7 @@
 				09EEAA7125D75F92001F7FD9 /* MRCommons */,
 				09EEAA7625D761CA001F7FD9 /* IQKeyboardManagerSwift */,
 				09EEAA7B25D761EA001F7FD9 /* TwilioVerify */,
+				09063EA825DB75AF00B7C6F0 /* KeychainAccess */,
 			);
 			productName = TwAuth;
 			productReference = 0988252025D6DA6A006B85ED /* TwAuth.app */;
@@ -226,6 +577,7 @@
 					};
 					0988253525D6DA6C006B85ED = {
 						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
 						TestTargetID = 0988251F25D6DA6A006B85ED;
 					};
 				};
@@ -243,6 +595,7 @@
 				09EEAA7025D75F92001F7FD9 /* XCRemoteSwiftPackageReference "MRCommons-iOS" */,
 				09EEAA7525D761CA001F7FD9 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 				09EEAA7A25D761EA001F7FD9 /* XCRemoteSwiftPackageReference "twilio-verify-ios" */,
+				09063EA725DB75AF00B7C6F0 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
 			);
 			productRefGroup = 0988252125D6DA6A006B85ED /* Products */;
 			projectDirPath = "";
@@ -261,6 +614,9 @@
 			files = (
 				0988256825D6DD93006B85ED /* Authentication.storyboard in Resources */,
 				0988253025D6DA6C006B85ED /* LaunchScreen.storyboard in Resources */,
+				09EEAB1125D9E14D001F7FD9 /* ChallengeTableViewCell.xib in Resources */,
+				09063EB225DC177F00B7C6F0 /* ChallengeDetail.storyboard in Resources */,
+				09EEAB0D25D9DD95001F7FD9 /* Challenges.storyboard in Resources */,
 				0988252D25D6DA6C006B85ED /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,14 +630,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09EEAAFF25D9BA40001F7FD9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0988251C25D6DA6A006B85ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09EEAB3125D9F2D3001F7FD9 /* ChallengesAPI.swift in Sources */,
+				09EEAB3525DA0C70001F7FD9 /* ChallengesAPIClient.swift in Sources */,
+				09EEAAF025D9A142001F7FD9 /* ServiceLocator.swift in Sources */,
+				09EEAA8525D89A14001F7FD9 /*  AuthenticationCoordinator.swift in Sources */,
+				09EEAA8025D8948A001F7FD9 /* AppCoordinator.swift in Sources */,
+				09063F1F25DD865400B7C6F0 /* BaseViewController.swift in Sources */,
 				0988256C25D6DDD2006B85ED /* AuthenticationViewController.swift in Sources */,
+				09EEAB2D25D9E712001F7FD9 /* ChallengesViewModelProtocol.swift in Sources */,
+				0970530825DED46F0035399F /* TwAuthError.swift in Sources */,
+				09EEAB2525D9E6BB001F7FD9 /* ChallengeTableViewCellViewModel.swift in Sources */,
+				09EEAAFA25D9AFD9001F7FD9 /* LoginResponse.swift in Sources */,
+				09063EC625DC1B9400B7C6F0 /* ChallengeDetailViewModel.swift in Sources */,
+				09EEAAAA25D8A49A001F7FD9 /* AccessTokenAPIClient.swift in Sources */,
+				09EEAB4325DA196D001F7FD9 /* ChallengesFactory.swift in Sources */,
+				09EEAAA325D8A49A001F7FD9 /* RegisterDeviceAPIClient.swift in Sources */,
+				09063EB625DC17CB00B7C6F0 /* ChallengeDetailViewController.swift in Sources */,
+				09EEAAA425D8A49A001F7FD9 /* LoginAPI.swift in Sources */,
+				09063E9425DB0A4C00B7C6F0 /* Account.swift in Sources */,
+				09EEAA9425D8A40F001F7FD9 /* AuthenticationManagerProtocol.swift in Sources */,
+				09EEAB2125D9E654001F7FD9 /* ChallengesViewModel.swift in Sources */,
 				0988252425D6DA6A006B85ED /* AppDelegate.swift in Sources */,
+				09EEAAA725D8A49A001F7FD9 /* RegisterDeviceAPI.swift in Sources */,
+				09EEAB1925D9E19F001F7FD9 /* DateFormatter+Extensions.swift in Sources */,
+				09063EBA25DC189B00B7C6F0 /* ChallengeDetailViewModelProtocol.swift in Sources */,
+				09EEAAA925D8A49A001F7FD9 /* CreateFactorAPIClient.swift in Sources */,
+				09EEAACE25D8BA4A001F7FD9 /* RegisterResponse.swift in Sources */,
+				09063EE025DC377800B7C6F0 /* ChallengeDetailFactory.swift in Sources */,
+				09EEAAC125D8A54D001F7FD9 /* AccessTokenOperation.swift in Sources */,
+				09EEAA9025D8A1ED001F7FD9 /* AuthenticationViewModelProtocol.swift in Sources */,
+				09EEAAC225D8A54D001F7FD9 /* LoginOperation.swift in Sources */,
+				09EEAB3B25DA186D001F7FD9 /* ChallengesCoordinatorProtocol.swift in Sources */,
+				09EEAB3F25DA18B4001F7FD9 /* ChallengesCoordinator.swift in Sources */,
+				09EEAA8F25D8A1ED001F7FD9 /* AuthenticationViewModel.swift in Sources */,
+				09EEAB1D25D9E3F8001F7FD9 /* ChallengesViewController.swift in Sources */,
+				09EEAAB125D8A4BB001F7FD9 /* AuthenticationManager.swift in Sources */,
+				09063F1C25DD7BA600B7C6F0 /* AlertProtocol.swift in Sources */,
+				09EEAB2925D9E6D2001F7FD9 /* ChallengeTableViewCellViewModelProtocol.swift in Sources */,
+				09EEAAC425D8A54D001F7FD9 /* CreateFactorOperation.swift in Sources */,
+				09EEAACD25D8BA4A001F7FD9 /* AccessTokenResponse.swift in Sources */,
+				09EEAB1525D9E15E001F7FD9 /* ChallengeTableViewCell.swift in Sources */,
+				09063EC225DC1A1200B7C6F0 /* ChallengeAPIClient.swift in Sources */,
+				09063EBE25DC19E100B7C6F0 /* ChallengeAPI.swift in Sources */,
+				09EEAAD325D8BA9D001F7FD9 /* Constants.swift in Sources */,
+				09063EA225DB63E700B7C6F0 /* AccountDataProvider.swift in Sources */,
+				09063EE825DC384C00B7C6F0 /* ChallengeDetailCoordinatorProtocol.swift in Sources */,
+				09EEAA8625D89A14001F7FD9 /* AuthenticationCoordinatorProtocol.swift in Sources */,
+				09EEAAC325D8A54D001F7FD9 /* RegisterDeviceOperation.swift in Sources */,
+				09063F3725DDB26900B7C6F0 /* BaseViewModelProtocol.swift in Sources */,
+				09EEAAA825D8A49A001F7FD9 /* AccessTokenAPI.swift in Sources */,
+				09EEAABF25D8A54D001F7FD9 /* Endpoint.swift in Sources */,
+				09EEAAF625D9A371001F7FD9 /* Injected.swift in Sources */,
+				09EEAAA625D8A49A001F7FD9 /* LoginAPIClient.swift in Sources */,
 				0988252625D6DA6A006B85ED /* SceneDelegate.swift in Sources */,
+				09EEAA8A25D89B3B001F7FD9 /* AuthenticationFactory.swift in Sources */,
+				09EEAAAD25D8A49A001F7FD9 /* CreateFactorAPI.swift in Sources */,
+				09063EE425DC381800B7C6F0 /* ChallengeDetailCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +718,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0988253B25D6DA6C006B85ED /* TwAuthTests.swift in Sources */,
+				09063F5625DDEB0900B7C6F0 /* ChallengesAPIClientMock.swift in Sources */,
+				09D03FEB25DE0DFF005B3872 /* ChallengeAPIClientMock.swift in Sources */,
+				09063F3F25DDBC0C00B7C6F0 /* AuthenticationViewModelTests.swift in Sources */,
+				09063F4225DDBD3A00B7C6F0 /* AuthenticationManagerMock.swift in Sources */,
+				09063F5025DDE97100B7C6F0 /* ChallengesViewModelTests.swift in Sources */,
+				09063F5325DDE98500B7C6F0 /* ChallengeDetailViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +871,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ALVM8N53R4;
 				INFOPLIST_FILE = TwAuth/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,6 +891,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ALVM8N53R4;
 				INFOPLIST_FILE = TwAuth/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -474,6 +910,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TwAuthTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -484,6 +921,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mruiz723.TwAuthTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwAuth.app/TwAuth";
@@ -495,6 +933,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TwAuthTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -544,6 +983,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		09063EA725DB75AF00B7C6F0 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.1;
+			};
+		};
 		09EEAA7025D75F92001F7FD9 /* XCRemoteSwiftPackageReference "MRCommons-iOS" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@github.com:mruiz723/MRCommons-iOS.git";
@@ -565,12 +1012,17 @@
 			repositoryURL = "https://github.com/twilio/twilio-verify-ios.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.3.2;
+				minimumVersion = 0.3.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		09063EA825DB75AF00B7C6F0 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09063EA725DB75AF00B7C6F0 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
 		09EEAA7125D75F92001F7FD9 /* MRCommons */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 09EEAA7025D75F92001F7FD9 /* XCRemoteSwiftPackageReference "MRCommons-iOS" */;
