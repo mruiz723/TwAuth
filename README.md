@@ -38,5 +38,5 @@ Thanks a lot to Yeimi Andrea Fuquen Moreno and Maria Paula Vega for all the supp
 
   
 
-  ![TwoFactorTest](/Users/marlon.ruiz/Desktop/TwoFactorTest.gif)
+  ![TwoFactorTest](./TwoFactorTest.gif)
 
