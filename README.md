@@ -2,6 +2,10 @@
 
 This repo contains an example of how to implement the Twilio Verify framework in an iOS app. The idea is to use the iOS app for two-factor verification. I mean, users authenticate on the website then they need to open the app and approve or deny the login request (comes from the website). If they approve, the website shows the profile. Otherwise, the website shows a message that indicates the login request was not approved.
 
+### Device Registration
+
+![device-registration-flow](./device-registration-flow.png)
+
 ### Acknowledge
 
 Thanks a lot to Yeimi Andrea Fuquen Moreno and Maria Paula Vega for all the support during the development of the test.
