@@ -28,7 +28,7 @@ Thanks a lot to Yeimi Andrea Fuquen Moreno and Maria Paula Vega for all the supp
 
 * MRCommons framework helps us with the bindable using the property observer. This framework is done with SPM and XCFramework. That allows us to avoid fat framework and finally put .zip XCFramework to offer to whatever person wants to download the framework.
 
-* The app avoids the pyramid of doom in the authentication process using the Operation and OperationQueue. With that, we can cancel and operation and add depends operation.
+* The app avoids the pyramid of doom in the authentication process using the Operation and OperationQueue. With that, we can cancel an operation and add depends operation.
 
 * Keychain is used to save sensible data like the information required to load the challenges.
 
