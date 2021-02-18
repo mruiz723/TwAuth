@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dlD-hd-yn1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="iZF-8D-HcD">
-                                <rect key="frame" x="107" y="194" width="200" height="134"/>
+                                <rect key="frame" x="107" y="381" width="200" height="134"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ar6-Bg-4ih">
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="34"/>
@@ -68,8 +68,8 @@
                         <viewLayoutGuide key="safeArea" id="0Zd-cN-Xdm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="iZF-8D-HcD" firstAttribute="top" secondItem="0Zd-cN-Xdm" secondAttribute="top" constant="150" id="bCg-qa-7yZ"/>
                             <constraint firstItem="iZF-8D-HcD" firstAttribute="centerX" secondItem="KbH-zo-1uG" secondAttribute="centerX" id="ikY-Gd-8dL"/>
+                            <constraint firstItem="iZF-8D-HcD" firstAttribute="centerY" secondItem="KbH-zo-1uG" secondAttribute="centerY" id="kJH-EW-FyE"/>
                         </constraints>
                     </view>
                     <connections>
