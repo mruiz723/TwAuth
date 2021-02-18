@@ -27,9 +27,9 @@ Thanks a lot to Yeimi Andrea Fuquen Moreno and Maria Paula Vega for all the supp
   Inside the .env put the following:
 
   ```bash
-  TWILIO_ACCOUNT_SID="AC3d69f8a953025e13298cdc5e5fc5486f"
-  TWILIO_AUTH_TOKEN="797f54158e5ad39df571ce5c904955d8"
-  TWILIO_VERIFY_SERVICE_SID="VAf64e4ff0a3d89a8c72b6a9cc4c4729ee"
+  TWILIO_ACCOUNT_SID="[YOUR ACCOUNT SID]"
+  TWILIO_AUTH_TOKEN="[YOUR AUTH TOKEN]"
+  TWILIO_VERIFY_SERVICE_SID="[YOUR VERIFY SERVICE SID]"
   ```
 
 Start the application
@@ -92,6 +92,8 @@ In the default setting no device is register as a factor, a user can sign up and
 * Keychain is used to save sensible data like the information required to load the challenges.
 
 * Added Unit tests to ViewModel whenever if possible.
+
+* The app is not using push notifications.
 
   
 
