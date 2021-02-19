@@ -14,9 +14,10 @@ struct Constants {
     static let id: String = "id"
     static let sid: String = "sid"
     static let scheme = "https"
-    static let baseURL = "69f3f70fc3bc.ngrok.io"
+    static let baseURL = "156ac9ec01a8.ngrok.io"
     static let pushToken = "0000000000000000000000000000000000000000000000000000000000000000"
     static let pageSize = 20
+    static let launchedBefore = "launchedBefore"
 
     struct Keychain {
         static let service = "com.mruiz72.TwAuth"
