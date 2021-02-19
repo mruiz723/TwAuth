@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         SVProgressHUD.setDefaultMaskType(.black)
-        cleanKeyChainIfNeeded()
+        cleanKeychainIfNeeded()
         return true
     }
 
@@ -37,7 +37,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 
 private extension AppDelegate {
-    func cleanKeyChainIfNeeded() {
+    func cleanKeychainIfNeeded() {
         let launchedBefore = UserDefaults.standard.bool(forKey: Constants.launchedBefore)
 
         if !launchedBefore {
