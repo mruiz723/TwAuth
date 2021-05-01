@@ -37,6 +37,9 @@
 		0988256825D6DD93006B85ED /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0988256725D6DD93006B85ED /* Authentication.storyboard */; };
 		0988256C25D6DDD2006B85ED /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0988256B25D6DDD2006B85ED /* AuthenticationViewController.swift */; };
 		09D03FEB25DE0DFF005B3872 /* ChallengeAPIClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D03FEA25DE0DFF005B3872 /* ChallengeAPIClientMock.swift */; };
+		09EAFDA4263C64B900F1967A /* URLSession+NetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EAFDA3263C64B900F1967A /* URLSession+NetworkSession.swift */; };
+		09EAFDA8263C661C00F1967A /* NetworkSessionMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EAFDA7263C661C00F1967A /* NetworkSessionMock.swift */; };
+		09EAFDAC263C70D200F1967A /* AccessTokenOperationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EAFDAB263C70D200F1967A /* AccessTokenOperationTests.swift */; };
 		09EEAA7225D75F92001F7FD9 /* MRCommons in Frameworks */ = {isa = PBXBuildFile; productRef = 09EEAA7125D75F92001F7FD9 /* MRCommons */; };
 		09EEAA7725D761CA001F7FD9 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 09EEAA7625D761CA001F7FD9 /* IQKeyboardManagerSwift */; };
 		09EEAA7C25D761EA001F7FD9 /* TwilioVerify in Frameworks */ = {isa = PBXBuildFile; productRef = 09EEAA7B25D761EA001F7FD9 /* TwilioVerify */; };
@@ -140,6 +143,9 @@
 		0988256725D6DD93006B85ED /* Authentication.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
 		0988256B25D6DDD2006B85ED /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		09D03FEA25DE0DFF005B3872 /* ChallengeAPIClientMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeAPIClientMock.swift; sourceTree = "<group>"; };
+		09EAFDA3263C64B900F1967A /* URLSession+NetworkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+NetworkSession.swift"; sourceTree = "<group>"; };
+		09EAFDA7263C661C00F1967A /* NetworkSessionMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSessionMock.swift; sourceTree = "<group>"; };
+		09EAFDAB263C70D200F1967A /* AccessTokenOperationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenOperationTests.swift; sourceTree = "<group>"; };
 		09EEAA7F25D8948A001F7FD9 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		09EEAA8325D89A14001F7FD9 /*  AuthenticationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = " AuthenticationCoordinator.swift"; sourceTree = "<group>"; };
 		09EEAA8425D89A14001F7FD9 /* AuthenticationCoordinatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationCoordinatorProtocol.swift; sourceTree = "<group>"; };
@@ -263,6 +269,7 @@
 		09063F3925DDBA4A00B7C6F0 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				09EAFDA6263C65C400F1967A /* Networking */,
 				09063F3C25DDBA7600B7C6F0 /* ChallengeDetail */,
 				09063F3B25DDBA6900B7C6F0 /* Challenges */,
 				09063F3A25DDBA5500B7C6F0 /* Authentication */,
@@ -372,6 +379,7 @@
 				09EEAAB425D8A54C001F7FD9 /* Endpoint.swift */,
 				09EEAAB525D8A54C001F7FD9 /* Operation */,
 				09EEAA9725D8A499001F7FD9 /* API */,
+				09EAFDA3263C64B900F1967A /* URLSession+NetworkSession.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -426,6 +434,15 @@
 				0988256B25D6DDD2006B85ED /* AuthenticationViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		09EAFDA6263C65C400F1967A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				09EAFDA7263C661C00F1967A /* NetworkSessionMock.swift */,
+				09EAFDAB263C70D200F1967A /* AccessTokenOperationTests.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		09EEAA9725D8A499001F7FD9 /* API */ = {
@@ -657,6 +674,7 @@
 			files = (
 				09EEAB3125D9F2D3001F7FD9 /* ChallengesAPI.swift in Sources */,
 				09EEAB3525DA0C70001F7FD9 /* ChallengesAPIClient.swift in Sources */,
+				09EAFDA4263C64B900F1967A /* URLSession+NetworkSession.swift in Sources */,
 				09EEAAF025D9A142001F7FD9 /* ServiceLocator.swift in Sources */,
 				09EEAA8525D89A14001F7FD9 /*  AuthenticationCoordinator.swift in Sources */,
 				09EEAA8025D8948A001F7FD9 /* AppCoordinator.swift in Sources */,
@@ -718,6 +736,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09EAFDA8263C661C00F1967A /* NetworkSessionMock.swift in Sources */,
+				09EAFDAC263C70D200F1967A /* AccessTokenOperationTests.swift in Sources */,
 				09063F5625DDEB0900B7C6F0 /* ChallengesAPIClientMock.swift in Sources */,
 				09D03FEB25DE0DFF005B3872 /* ChallengeAPIClientMock.swift in Sources */,
 				09063F3F25DDBC0C00B7C6F0 /* AuthenticationViewModelTests.swift in Sources */,
@@ -871,6 +891,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = ALVM8N53R4;
 				INFOPLIST_FILE = TwAuth/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -891,6 +912,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = ALVM8N53R4;
 				INFOPLIST_FILE = TwAuth/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

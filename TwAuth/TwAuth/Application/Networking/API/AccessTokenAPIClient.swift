@@ -14,14 +14,14 @@ class AccessTokenAPIClient: AccessTokenAPI {
     var networkAccessTokenOperation: AccessTokenOperation
     private let completion: AccessTokenBlock?
 
-    init(completion: AccessTokenBlock? = nil, networkAccessTokenOperation: AccessTokenOperation = AccessTokenOperation()) {
+    init(completion: AccessTokenBlock? = nil, networkAccessTokenOperation: AccessTokenOperation = AccessTokenOperation(session: URLSession.shared)) {
         self.completion = completion
         self.networkAccessTokenOperation = networkAccessTokenOperation
     }
 
     func accessToken(at endpoint: Endpoint, completion: AccessTokenBlock? = nil) {
         if networkAccessTokenOperation.state != .ready {
-            networkAccessTokenOperation = AccessTokenOperation()
+            networkAccessTokenOperation = AccessTokenOperation(session: URLSession.shared)
         }
 
         networkAccessTokenOperation.completion = completion
