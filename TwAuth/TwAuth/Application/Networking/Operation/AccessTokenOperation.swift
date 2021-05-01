@@ -12,12 +12,17 @@ final class AccessTokenOperation: AsyncOperation {
 
     // MARK: - Properties
 
+    private let session: NetworkSession
     var account: Account?
     var request: URLRequest?
     var completion: AccessTokenBlock?
     var endpoint: Endpoint?
 
     // MARK: - Initializer
+
+    init(session: NetworkSession) {
+        self.session = session
+    }
 
     override func main() {
         accessToken(completion: completion)
@@ -28,7 +33,6 @@ final class AccessTokenOperation: AsyncOperation {
 
 private extension AccessTokenOperation {
 
-    // swiftlint:disable cyclomatic_complexity function_body_length
     func accessToken(completion: AccessTokenBlock? = nil) {
         let dependencyAccount = dependencies
             .compactMap { ($0 as? AccountDataProvider)?.account }
@@ -50,26 +54,16 @@ private extension AccessTokenOperation {
                 .setHTTPMethod(.post)
                 .setParameters(createTokenBody(id: id))
                 .build()
-
-            URLSession.shared.dataTask(with: request) { [weak self] data, response, error in
+            session.loadData(with: request) {  [weak self] result in
                 guard let self = self else { return }
 
                 defer { self.state = .finished }
 
-                if let error = error {
+                switch result {
+                case .failure(let error):
                     completion?(.failure(error))
-                    return
-                }
-
-                guard let httpResponse = response as? HTTPURLResponse else {
-                    completion?(.failure(TwAuthError.invalidResponse))
-                    return
-                }
-
-                switch httpResponse.statusCode {
-                case 200..<300:
-                    guard let data = data,
-                          let accessTokenResponse = try? JSONDecoder().decode(AccessTokenResponse.self, from: data) else {
+                case .success(let data):
+                    guard let accessTokenResponse = try? JSONDecoder().decode(AccessTokenResponse.self, from: data) else {
                         completion?(.failure(TwAuthError.invalidData))
                         return
                     }
@@ -77,22 +71,14 @@ private extension AccessTokenOperation {
                     account.accessToken = accessTokenResponse
                     self.account = account
                     completion?(.success(accessTokenResponse))
-                case 401, 403, 405, 407:
-                    completion?(.failure(TwAuthError.unauthorized))
-                case 400, 404:
-                    completion?(.failure(TwAuthError.invalidURL))
-                case 500..<511:
-                    completion?(.failure(TwAuthError.serverError))
-                default:
-                    completion?(.failure(TwAuthError.unknown))
                 }
-            }.resume()
+            }
+
         } catch {
             cancel()
             completion?(.failure(error))
         }
     }
-    // swiftlint:enable cyclomatic_complexity function_body_length
 
     func createTokenBody(id: String) throws -> [Parameter] {
         let body = [
